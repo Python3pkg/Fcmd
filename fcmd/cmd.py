@@ -33,7 +33,7 @@ class FCmd:
 			self.__ssh = Ssh(host, port, username=user, password=password)
 			p.stop(color_str("OK", "green"))
 		except Exception as err:
-			if 'p' in locals().keys():
+			if 'p' in list(locals().keys()):
 				p and p.stop(color_str(str(err), "red"))
 			raise Exception(str(err))
 			return False

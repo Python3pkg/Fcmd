@@ -2,4 +2,4 @@
 # -*- coding: utf-8 -*- 
 
 __version__ = "1.1"
-from cmds import RegUser, Cmd
+from .cmds import RegUser, Cmd

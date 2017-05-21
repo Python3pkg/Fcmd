@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 
 import os,sys
-from cmd import FCmd
+from .cmd import FCmd
 from neko import color_str, ProcBar
 
 
